@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Dzamixoff</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <img src="img/header/Logo.png" alt="Логотип" class="header__logo">
+          <div class="header__text">
+            <p class="header__tel">8-919-747-35-45</p>
+          </div>
+          <div class="header__link">
+            <a class="link__header" href="#popup">Заказать доставку</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="title">
+        <div class="container">
+          <div class="ttile__row">
+            <div class="title__body">
+              <div class="title__title">
+                Доставим посылку, <br>
+                еду, любой груз. <br>
+                <span>Бесконтактно</span> <br>
+              </div>
+              <div class="title__subtitle">
+                Просто опишите вашу задачу, а мы <br>
+                доставим вашу посылку вовремя! <br>
+                Скидка 500 рублей на первый заказ. <br>
+              </div>
+              <div class="title__button">
+                <form action="#popup"><button class="title__btn">Заказать доставку</button></form>
+              </div>
+            </div>
+            <img src="img/main:title/the_deliveryman.png" alt="Доставщик">
+          </div>
+        </div>
+      </div>
+      <div class="subtitle">
+        <div class="container">
+          <div class="subtitle__column">
+            <div class="subtitle__row">
+              <div class="subtitle__item item">
+                <div class="item__row">
+                  <i class="fa fa-truck" aria-hidden="true"></i>
+                  <div class="item__text">Возим и в городе, <br>
+                    и по области</div>
+                </div>
+              </div>
+              <div class="subtitle__item item">
+                <div class="item__row">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <div class="item__text">Бережно относимся <br>
+                    к посылкам</div>
+                </div>
+              </div>
+              <div class="subtitle__item item">
+                <div class="item__row">
+                  <i class="fa fa-users" aria-hidden="true"></i>
+                  <div class="item__text">Более 300 курьеров
+                    готовы помочь!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <p class="footer__text">Напишите нам в мессенджере: </p>
+          <div class="footer__icon">
+            <a target="_blank" href="https://ru.wikipedia.org/wiki/Telegram" class="icon__net"><i class="fa fa-telegram"
+                aria-hidden="true"></i></a>
+            <a target="_blank" href="https://ru.wikipedia.org/wiki/ВКонтакте" class="icon__net"><i class="fa fa-vk"
+                aria-hidden="true"></i></a>
+            <a target="_blank" href="https://ru.wikipedia.org/wiki/WhatsApp" class="icon__net"><i class="fa fa-whatsapp"
+                aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div id="popup" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close">&#215;</a>
+        <div class="popup__title">Здравствуйте!</div>
+        <div class="popup__text">Расскажите, пожалуйста, о вашей задаче</div>
+        <form>
+          <input placeholder="На какой номер вам перезвонить" type="tel" class="popup__tel">
+          <input placeholder="Что, откуда и куда Вам нужно доставить?" type="text" class="popup__area">
+          <button type="reset" class="popup__btn">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/051ca55153.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
